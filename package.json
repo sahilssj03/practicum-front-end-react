@@ -1,5 +1,5 @@
 {
-  "name": "store",
+  "name": "practicum-fronend", 
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch:sass": "node-sass  ./src/testing.scss ./src/testing.css -w"
